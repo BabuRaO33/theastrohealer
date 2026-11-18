@@ -1,0 +1,560 @@
+{
+    "users": {
+        "admin@theastrohealer.com": {
+            "email": "admin@theastrohealer.com",
+            "password": "admin@theastrohealer.com12@@",
+            "name": "Malik Admin",
+            "dob": "1985-05-15",
+            "tob": "08:15",
+            "place": "Lahore, Pakistan",
+            "lat": 31.5204,
+            "lon": 74.3587,
+            "timezone": 5,
+            "coins": 9999,
+            "plan": "premium",
+            "role": "admin",
+            "questionsAsked": 2,
+            "createdAt": 1781355106995,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Assalam-o-Alaikum Astrologer Malik Admin Panel! 🌟 Ready to manage clients and coins.",
+                    "timestamp": 1781355106995
+                },
+                {
+                    "role": "user",
+                    "text": "Roman Urdu mein short batao career ke liye kya guidance hai?",
+                    "timestamp": 1781469726328
+                },
+                {
+                    "role": "model",
+                    "text": "Aap ke career ke liye Moon 10th house mein Cancer sign mein hai, jo public ya caring field mein achha time dikhata hai.  \n\nSaturn 5th house mein discipline aur mehnat ki zaroorat batata hai. Jupiter 2nd house mein wealth ke liye support deta hai lekin dheere dheere.  \n\nPractical advice: Apni emotional stability par focus karen aur consistent kaam karen. Roz subah istighfar karen aur kisi gareeb ko khana khilayein, inshaAllah asani hogi.",
+                    "timestamp": 1781469730062
+                },
+                {
+                    "role": "user",
+                    "text": "Roman Urdu mein 2 lines career guidance do.",
+                    "timestamp": 1781470130643
+                },
+                {
+                    "role": "model",
+                    "text": "Aap ke career ke liye Moon 10th house Cancer mein public ya caring field mein achha waqt hai. Mehnat aur roz istighfar karen, inshaAllah asani hogi.",
+                    "timestamp": 1781470133251
+                }
+            ]
+        },
+        "hamzabha543@gmail.com": {
+            "email": "hamzabha543@gmail.com",
+            "password": "hamzabha543@gmail.com",
+            "name": "admin",
+            "dob": "1995-10-18",
+            "tob": "08:30",
+            "place": "lahore (Astro Defaulted)",
+            "lat": 31.5204,
+            "lon": 74.3587,
+            "timezone": 5,
+            "coins": 0,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 5,
+            "createdAt": 1781355621656,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Assalam-o-Alaikum beta admin! Main hoon Astrologer Malik. Aap ka chart tayar hai, be-khof poochein sawal!",
+                    "timestamp": 1781355621656
+                },
+                {
+                    "role": "user",
+                    "text": "jj",
+                    "timestamp": 1781355992712
+                },
+                {
+                    "role": "model",
+                    "text": "GEMINI_API_KEY is missing in the .env file. Please add the key so I can give detailed answers.",
+                    "timestamp": 1781355994051
+                },
+                {
+                    "role": "user",
+                    "text": "kaise ho",
+                    "timestamp": 1781365578140
+                },
+                {
+                    "role": "model",
+                    "text": "وعلیکم السلام! Alhamdulillah, mein theek hoon. Aap ki dua hai.\n\nJee, farmayein admin, aap kya jan'na chahte hain? Aap ka chart mere paas tayar hai, jo bhi sawal aap ke zehen mein hai, be-jhijhak poochiye. Insha'Allah, mein aap ki rehnumai ke liye maujood hoon.",
+                    "timestamp": 1781365581237
+                },
+                {
+                    "role": "user",
+                    "text": "mei bht pershan hu",
+                    "timestamp": 1781365596232
+                },
+                {
+                    "role": "model",
+                    "text": "وعلیکم السلام admin!\n\nMein samajh sakta hoon ke aap pareshan hain. Dunya mein har insaan ko kabhi na kabhi mushkilaat aur pareshaniyon ka saamna karna parta hai, aur yeh zindagi ka hissa hai. Lekin yaad rakhiye, Allah Ta'ala kisi par uski taaqat se zyada bojh nahin daalta, aur har mushkil ke baad aasani hai. Insha'Allah, aapki pareshani bhi door hogi.\n\nAap ghabraiye nahin, mein aapke saath hoon. Aap be-jhijhak bataiye ke aap kis cheez ko le kar zyada pareshan hain?\n\n*   Kya yeh aapke **career** se mutalliq hai?\n*   **Maali halaat** (finances) ki wajah se hai?\n*   **Rishton** (relationships) mein koi masla hai?\n*   **Sehat** (health) ki koi fikar hai?\n*   Ya kisi aur khaas masle ki wajah se aap ghambeer hain?\n\nJab aap mujhe thodi tafseel denge, to mein aapke chart ka jaiza le kar, Insha'Allah, aapki rehnumai kar sakunga aur bata sakunga ke sitaron ki roshni mein aapke liye kya behtar rasta ho sakta hai aur kaunsi dua ya amal aapke liye faida mand hoga.\n\nAllah Ta'ala aapki pareshani door farmaye. Ameen.",
+                    "timestamp": 1781365601449
+                },
+                {
+                    "role": "user",
+                    "text": "yar bss pershan hu kam ko lekr",
+                    "timestamp": 1781365623964
+                },
+                {
+                    "role": "model",
+                    "text": "Connection to the AI service failed: Operation timed out after 12018 milliseconds with 0 bytes received. Please check hosting outbound connections.",
+                    "timestamp": 1781365635983
+                },
+                {
+                    "role": "user",
+                    "text": "?",
+                    "timestamp": 1781365894550
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum admin,\n\nMein samajh sakta hoon ke aap kaam ko le kar pareshan hain, jaisa ke aap ne pehle bhi zikr kiya tha. Aap ne '?' bheja hai, kya aap mazeed kuch jan'na chahte hain ya apni pareshani ke baare mein kuch aur tafseel dena chahte hain?\n\nFikr na karein, Insha'Allah, hum mil kar iska hal talash karenge. Kaam se mutalliq pareshaniyon ki kayi wajuhaat ho sakti hain:\n\n*   Kya aapko apne **maujooda kaam** (current job) mein koi masla aa raha hai (maslan, job security, promotion, colleagues, workload, ya aapka dil nahi lag raha)?\n*   Kya aap **naya kaam** (new job) talaash kar rahe hain aur us mein mushkil ho rahi hai ya sahi mauqa nahi mil raha?\n*   Kya aap **business** karte hain aur us mein rukawatain ya nuqsan ka saamna hai?\n*   Ya phir aapke **career path** ya mustaqbil ke faislon (future decisions) ko le kar koi confusion hai?\n\nBe-jhijhak bataiye, admin. Jab aap thodi tafseel denge, to mein aapke chart aur sitaron ki maujooda position ko dekh kar, Insha'Allah, aapko behtar rehnumai de sakunga aur bata sakunga ke kaunsi dua ya amal aapke liye faida mand hoga.\n\nAllah Ta'ala aapki mushkilaat ko asaan farmaye aur aapko sukoon ata farmaye. Ameen.",
+                    "timestamp": 1781365901418
+                }
+            ]
+        },
+        "seeker_51478@theastrohealer.com": {
+            "email": "seeker_51478@theastrohealer.com",
+            "password": "malik_51478",
+            "name": "Vedic Star Seeker",
+            "phone": "",
+            "dob": "1995-10-18",
+            "tob": "12:00",
+            "place": "Lahore, Punjab, Pakistan",
+            "lat": 31.5497,
+            "lon": 74.3436,
+            "timezone": 5,
+            "coins": 20,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 3,
+            "createdAt": 1781358499828,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome Vedic Star Seeker. Your chart is ready. Ask your question in any language; I will answer with astrology guidance and Islamic reminders where helpful.",
+                    "timestamp": 1781358499828
+                },
+                {
+                    "role": "user",
+                    "text": "Ruzgar me barkat ke liye rohani tip btayein?",
+                    "timestamp": 1781358508804
+                },
+                {
+                    "role": "model",
+                    "text": "Connection to the AI service failed: Operation timed out after 12018 milliseconds with 0 bytes received. Please check hosting outbound connections.",
+                    "timestamp": 1781358520824
+                },
+                {
+                    "role": "user",
+                    "text": "hellp",
+                    "timestamp": 1781365317324
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum, Vedic Star Seeker!\n\nJi, main aapki khidmat ke liye hazir hoon. Kya aap apna pichla sawal dohrana chahenge, ya aap koi naya sawal poochhna chahte hain?\n\nMain aapki madad ke liye yahan hoon.",
+                    "timestamp": 1781365320941
+                },
+                {
+                    "role": "user",
+                    "text": "Ruzgar me barkat ke liye rohani tip btayein?",
+                    "timestamp": 1781467605232
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum, Vedic Star Seeker!\n\nApka sawal roshni aur barkat ke liye hai, jo ke ALLAH ki taraf se hai. Astrologically, aapke chart mein kuch placements hain jo roshni aur taraqqi se mutalliq hain.\n\nAapke chart ke mutabiq:\n\n*   **Ascendant (Lagna) Scorpio mein hai:** Scorpio aik mazboot nishani hai jo gherai, transformation aur hosle ko zahir karti hai. Yeh aapko mushkil halaat se nikalne ki qudrat deti hai.\n*   **Mars (Mangal) aur Venus (Shukra) Ascendant ke sath Scorpio mein hain:** Mars aapko himmat aur kaam karne ki energy deta hai, jab ke Venus aapki zindagi mein khush-haali aur muasharti talluqaat ko behtar bana sakta hai. Ketu bhi yahan hai, jo kabhi kabhi cheezon ko uljha deta hai, lekin sahi direction mein istemal kiya jaye toh faida mand ho sakta hai.\n*   **Moon (Chand) aur Jupiter (Guru) Cancer mein House 10 mein hain:** Yeh aik khush-gawar position hai jo aapke career aur masharti maqam ke liye achhi hai. Moon aapki rawani aur khush-fehmi ko zahir karta hai, jab ke Jupiter, jo ALLAH ki rehmat ka nishani hai, aapki tarqqi aur faizani mein madad karta hai. Rahu bhi yahan hai, jo kabhi kabhi be-chaini de sakta hai, lekin iske sath Jupiter ki mojoodgi isay behtar bana sakti hai.\n*   **Sun (Suraj), Mercury (Budh), aur Saturn (Shani) Pisces mein House 6 mein hain:** House 6 rozmarra ke kaam, sehat aur muqadron se mutalliq hai. Sun aapko zindagi mein aik maqsad deta hai, Mercury soch bichaar mein madad karta hai, aur Saturn aapko sabr aur mehnat sikhata hai. Yeh placements aapko apne rozmarra ke kaam mein mehnat aur lagan se kaam karne ki targheeb deti hain.\n\n**Ruzgar mein Barkat ke Liye Rohani aur Astrological Guidance:**\n\n1.  **Sabar aur Shukar (Patience and Gratitude):** ALLAH ne Quran mein sabr karne walon ke sath hone ka wada kiya hai. Aapki zindagi mein jo bhi hai, us par shukr adaa karein. Astrologically, Saturn (Shani) ki House 6 mein mojoodgi sabr aur mehnat ka sabak deti hai. Is sabr ko apni roshni ka hissa banayein.\n2.  **Dua aur Tawakkul (Supplication and Reliance on Allah):** ALLAH se khair aur barkat ke liye dua mangna sab se bara rohani amal hai. Aapka Moon aur Jupiter House 10 mein hain, jo aapke emotional well-being aur career ke liye achhe hain. Inki roshni mein ALLAH se apni roshni aur kamayi mein barkat ki dua karein. Apne kaam mein tawakkul rakhein, matlab mehnat ke baad apna bharosa ALLAH par rakhein.\n3.  **Sadqa aur Khidmat-e-Khalq (Charity and Service to Humanity):** Sadqa ALLAH ki rehmat ko khinchta hai aur mushkilat ko door karta hai. Aapki House 6 mein Sun, Mercury aur Saturn ki mojoodgi aapko apne kaam mein tawajjuh dene ki targheeb deti hai. Iske sath sath, ghareebon ki madad karna, janwaron ko khilana, ya kisi bhi tarah se khidmat-e-khalq karna ALLAH ko raazi karta hai aur barkat lata hai.\n4.  **Apne Kaam Mein Ekhlas aur Mehnat (Sincerity and Hard Work in Your Profession):** Aapka Ascendant Scorpio mein hai, jo aapko hosla aur gehri soch deta hai. House 6 mein Sun, Mercury, aur Saturn aapko apne kaam mein ekhlas, sahi planning aur mehnat karne ki hidayat dete hain. Jab aap apna kaam ALLAH ke naam par aur ekhlas se karte hain, toh us mein barkat khud-ba-khud aa jati hai.\n5.  **Istiġfar (Seeking Forgiveness):** ALLAH se tauba aur istighfar karna gunahon ko maaf karta hai aur roshni ke darwaze kholta hai. Astrologically, Rahu aur Ketu ki position kabhi kabhi pareshani ka baais ban sakti hai, lekin istighfar in par positive asar dalta hai.\n6.  **Apne Maqsad ko Yaad Rakhein:** Aapki roshni ka maqsad kya hai? Jab aap apne maqsad ko ALLAH se jor kar dekhte hain, toh aapki mehnat mein aur ziada asar aa jata hai.\n\n**Agla Qadam:**\n\n*   Rozana ALLAH se dhyan se dua karein, khaas taur par apni roshni mein barkat ke liye.\n*   Apne kaam mein sabr aur mehnat jari rakhein.\n*   Apni kamayi ka kuch hissa sadqa dein aur ALLAH ki makhlooq ki madad karein.\n*   Apne kaam mein ekhlas aur imandari ko sab se pehle rakhein.\n\nIn rohani baton par amal karne se aap ALLAH ki rehmat aur barkat hasil kar sakte hain. ALLAH aap par apna fazal farmaye. Ameen.",
+                    "timestamp": 1781467614867
+                }
+            ]
+        },
+        "hamzabha5436@gmail.com": {
+            "email": "hamzabha5436@gmail.com",
+            "password": "hamzabha543@gmail.com",
+            "name": "Hamza",
+            "phone": "03006645097",
+            "dob": "2004-09-09",
+            "tob": "12:00",
+            "place": "Lahore, Punjab, Pakistan",
+            "lat": 31.54972,
+            "lon": 74.34361,
+            "timezone": 5,
+            "coins": 20,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 3,
+            "createdAt": 1781365431251,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome Vedic Star Seeker. Your chart is ready. Ask your question in any language; I will answer with astrology guidance and Islamic reminders where helpful.",
+                    "timestamp": 1781358499828
+                },
+                {
+                    "role": "user",
+                    "text": "Ruzgar me barkat ke liye rohani tip btayein?",
+                    "timestamp": 1781358508804
+                },
+                {
+                    "role": "model",
+                    "text": "Connection to the AI service failed: Operation timed out after 12018 milliseconds with 0 bytes received. Please check hosting outbound connections.",
+                    "timestamp": 1781358520824
+                },
+                {
+                    "role": "user",
+                    "text": "hellp",
+                    "timestamp": 1781365317324
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum, Vedic Star Seeker!\n\nJi, main aapki khidmat ke liye hazir hoon. Kya aap apna pichla sawal dohrana chahenge, ya aap koi naya sawal poochhna chahte hain?\n\nMain aapki madad ke liye yahan hoon.",
+                    "timestamp": 1781365320941
+                },
+                {
+                    "role": "model",
+                    "text": "Account saved successfully. Your guest coins and chat history are now linked with hamzabha5436@gmail.com.",
+                    "timestamp": 1781365431252
+                },
+                {
+                    "role": "user",
+                    "text": "mei bht pershan hu",
+                    "timestamp": 1781365462796
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum, Hamza sahib!\n\nMai samajh sakta hoon ke aap pareshan hain. Jab insaan kisi mushkil mein hota hai toh dil ghabra jaata hai aur zehan mein bechaini rehti hai.\n\nMagar aap bilkul fikar na karein, Insha'Allah. Allah ki rehmat se har mushkil ka hal mil jaata hai aur har pareshani ke baad aasani aati hai. Hum sabr aur dua se har mushkil ka saamna kar sakte hain.\n\nAap kis baat ko lekar pareshan hain? Agar aap mujhe thoda tafseel se batayenge ke aapko kya mushkil darpesh hai, toh main aapke saitaron ki roshni mein aur Islami hidayat ke saath aapki behtar rehnumai kar sakunga.\n\nAap khul kar baat kar sakte hain. Main aapki madad ke liye yahan hoon.",
+                    "timestamp": 1781365468813
+                }
+            ]
+        },
+        "seeker_27416@theastrohealer.com": {
+            "email": "seeker_27416@theastrohealer.com",
+            "password": "malik_27416",
+            "name": "Vedic Star Seeker",
+            "phone": "",
+            "dob": "2004-09-27",
+            "tob": "12:00",
+            "place": "Lahore, Punjab, Pakistan",
+            "lat": 31.5497,
+            "lon": 74.3436,
+            "timezone": 5,
+            "coins": 40,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 1,
+            "createdAt": 1781365716917,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome Vedic Star Seeker. Your chart is ready. Ask your question in any language; I will answer with astrology guidance and Islamic reminders where helpful.",
+                    "timestamp": 1781365716917
+                },
+                {
+                    "role": "user",
+                    "text": "Ruzgar me barkat ke liye rohani tip btayein?",
+                    "timestamp": 1781365746529
+                },
+                {
+                    "role": "model",
+                    "text": "Connection to the AI service failed: Operation timed out after 12022 milliseconds with 0 bytes received. Please check hosting outbound connections.",
+                    "timestamp": 1781365758552
+                }
+            ]
+        },
+        "seeker_42525@theastrohealer.com": {
+            "email": "seeker_42525@theastrohealer.com",
+            "password": "malik_42525",
+            "name": "Vedic Star Seeker",
+            "phone": "",
+            "dob": "2004-09-09",
+            "tob": "12:00",
+            "place": "Lahore, Pakistan",
+            "lat": 31.5497,
+            "lon": 74.3436,
+            "timezone": 5,
+            "coins": 40,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 1,
+            "createdAt": 1781369016375,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome Vedic Star Seeker. Your chart is ready. Ask your question in any language; I will answer with astrology guidance and Islamic reminders where helpful.",
+                    "timestamp": 1781369016375
+                },
+                {
+                    "role": "user",
+                    "text": "Ruzgar me barkat ke liye rohani tip btayein?",
+                    "timestamp": 1781369020686
+                },
+                {
+                    "role": "model",
+                    "text": "Connection to the AI service failed: Operation timed out after 12014 milliseconds with 0 bytes received. Please check hosting outbound connections.",
+                    "timestamp": 1781369032701
+                }
+            ]
+        },
+        "seeker_62963@theastrohealer.com": {
+            "email": "seeker_62963@theastrohealer.com",
+            "password": "malik_62963",
+            "name": "Vedic Star Seeker",
+            "phone": "",
+            "dob": "2004-09-09",
+            "tob": "15:00",
+            "place": "Lahore, Punjab, Pakistan",
+            "lat": 31.582035,
+            "lon": 74.324483,
+            "timezone": 5,
+            "coins": 30,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 2,
+            "createdAt": 1781369624074,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome Vedic Star Seeker. Your chart is ready. Ask your question in any language; I will answer with astrology guidance and Islamic reminders where helpful.",
+                    "timestamp": 1781369624104
+                },
+                {
+                    "role": "user",
+                    "text": "Aoa",
+                    "timestamp": 1781369632560
+                },
+                {
+                    "role": "model",
+                    "text": "Aoa Vedic Star Seeker.\n\nAap ka sawal kya hai? Main aap ki madad karne ke liye yahan hoon. Astrological guidance aur Islamic naseehat ke sath, main aap ke sawal ka jawab dene ki koshish karunga.",
+                    "timestamp": 1781369634291
+                },
+                {
+                    "role": "user",
+                    "text": "Sitaron ke mutabiq foreign mukhtalif safar kab khulega?",
+                    "timestamp": 1781369662241
+                },
+                {
+                    "role": "model",
+                    "text": "Vedic Star Seeker,\n\nAap ka sawal foreign safar ke bare mein hai. Astrology mein, videsh yatra ke liye kuch khaas tareekay hain jin se dekha ja sakta hai. Aapke chart ke hisab se, kuch ishare milte hain:\n\n**Chand (Moon) aur Raftar (Transits):**\n*   Aapka Chand (Moon) House 10, Virgo mein hai. Yeh career aur public life ko represent karta hai. Jab videsh yatra ke karak (significators) Chand se achhe tareeqay se jure honge, toh safar ke mauqe ban sakte hain.\n*   Hum dekhenge ki jab Jupiter (Guru), jo ki badhaava aur safar ka karak hai, aapke 10th house se guzar raha ho ya usko dekh raha ho, toh videsh yatra ke mauqe zyada ho sakte hain. Filhaal, Jupiter aapke 10th house, Virgo mein hi hai, jo ek achha ishara hai.\n*   Aapke 9th house (videsh yatra ka khaas ghar) aur 12th house (videsh aur kharch) ki position aur un par parne wali nazar (aspects) bhi aham hain. Agar in gharon ke malik (lords) mazboot hon aur unka sambandh videsh yatra se juda ho, toh safar ke chances barh jate hain.\n\n**Ketu (Ketu) aur Rahu (Rahu) ka Asar:**\n*   Aapka Ketu House 2, Capricorn mein hai aur Rahu House 10, Virgo mein. Yeh nodal axis videsh yatra ke liye kuch challenges ya unexpected situations la sakta hai, lekin saath hi, yeh aapko us taraf dhakka bhi de sakta hai. Jab yeh axis aapke safar wale gharon (9th aur 12th house) se connect hoga, toh yeh ek bada badlav la sakta hai.\n\n**Mars (Mangal) aur Venus (Shukra):**\n*   Mars aur Venus dono aapke House 2, Capricorn mein hain, Ketu ke saath. Yeh aapki finances aur family life se juda hai. Agar videsh yatra aapke karobar ya finance se judi ho, toh is placement ka asar ho sakta hai.\n\n**Agay Kya Karna Hai (Next Steps):**\n1.  **Jupiter ka Gochar (Transit):** Dekhein ki Jupiter kab aapke 10th house se nikal kar aage badhta hai aur videsh yatra se mulzim gharon (9th aur 12th house) ko dekhta hai. Yeh ek khaas time ho sakta hai.\n2.  **Dua aur Tawakkul:** Astrology sirf ek ishara hai. Sabse aham baat Allah par tawakkul karna aur dua mangna hai. Aap videsh yatra ki khairiyat ke liye dua karen.\n3.  **Sadaqah:** Ghareebon aur zaroorat mandon ki madad karna, ya janwaron ko khana dena, Allah ki rehmat ko hasil karne ka zariya ban sakta hai. Yeh Allah se aasani mangne ka ek tareeqa hai.\n4.  **Sabr:** Kabhi kabhi cheezon mein der hoti hai. Sabr se kaam len aur Allah par bharosa rakhen.\n5.  **Visa Processing:** Agar aap visa ke liye apply kar rahe hain, toh uske process par tawajjuh den. Kabhi kabhi wohi safar ka mauqa banata hai.\n\nAstrology aapko direction de sakti hai, lekin akhirkar, Allah ki marzi aur aapki koshishein hi aapke safar ko mukammal karengi. Allah aapke liye aasaniyan paida farmaye.",
+                    "timestamp": 1781369667335
+                }
+            ]
+        },
+        "hamza543@gmail.com": {
+            "email": "hamza543@gmail.com",
+            "password": "hamza12@@H",
+            "name": "Vedic Star Seeker",
+            "phone": "03006645097",
+            "dob": "1995-10-18",
+            "tob": "12:00",
+            "place": "Lahore, Punjab, Pakistan",
+            "lat": 31.5566,
+            "lon": 74.356,
+            "timezone": 5,
+            "coins": 0,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 5,
+            "createdAt": 1781467801374,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome Vedic Star Seeker. Your chart is ready. Ask your question in any language; I will answer with astrology guidance and Islamic reminders where helpful.",
+                    "timestamp": 1781358499828
+                },
+                {
+                    "role": "user",
+                    "text": "Ruzgar me barkat ke liye rohani tip btayein?",
+                    "timestamp": 1781358508804
+                },
+                {
+                    "role": "model",
+                    "text": "Connection to the AI service failed: Operation timed out after 12018 milliseconds with 0 bytes received. Please check hosting outbound connections.",
+                    "timestamp": 1781358520824
+                },
+                {
+                    "role": "user",
+                    "text": "hellp",
+                    "timestamp": 1781365317324
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum, Vedic Star Seeker!\n\nJi, main aapki khidmat ke liye hazir hoon. Kya aap apna pichla sawal dohrana chahenge, ya aap koi naya sawal poochhna chahte hain?\n\nMain aapki madad ke liye yahan hoon.",
+                    "timestamp": 1781365320941
+                },
+                {
+                    "role": "user",
+                    "text": "Ruzgar me barkat ke liye rohani tip btayein?",
+                    "timestamp": 1781467605232
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum, Vedic Star Seeker!\n\nApka sawal roshni aur barkat ke liye hai, jo ke ALLAH ki taraf se hai. Astrologically, aapke chart mein kuch placements hain jo roshni aur taraqqi se mutalliq hain.\n\nAapke chart ke mutabiq:\n\n*   **Ascendant (Lagna) Scorpio mein hai:** Scorpio aik mazboot nishani hai jo gherai, transformation aur hosle ko zahir karti hai. Yeh aapko mushkil halaat se nikalne ki qudrat deti hai.\n*   **Mars (Mangal) aur Venus (Shukra) Ascendant ke sath Scorpio mein hain:** Mars aapko himmat aur kaam karne ki energy deta hai, jab ke Venus aapki zindagi mein khush-haali aur muasharti talluqaat ko behtar bana sakta hai. Ketu bhi yahan hai, jo kabhi kabhi cheezon ko uljha deta hai, lekin sahi direction mein istemal kiya jaye toh faida mand ho sakta hai.\n*   **Moon (Chand) aur Jupiter (Guru) Cancer mein House 10 mein hain:** Yeh aik khush-gawar position hai jo aapke career aur masharti maqam ke liye achhi hai. Moon aapki rawani aur khush-fehmi ko zahir karta hai, jab ke Jupiter, jo ALLAH ki rehmat ka nishani hai, aapki tarqqi aur faizani mein madad karta hai. Rahu bhi yahan hai, jo kabhi kabhi be-chaini de sakta hai, lekin iske sath Jupiter ki mojoodgi isay behtar bana sakti hai.\n*   **Sun (Suraj), Mercury (Budh), aur Saturn (Shani) Pisces mein House 6 mein hain:** House 6 rozmarra ke kaam, sehat aur muqadron se mutalliq hai. Sun aapko zindagi mein aik maqsad deta hai, Mercury soch bichaar mein madad karta hai, aur Saturn aapko sabr aur mehnat sikhata hai. Yeh placements aapko apne rozmarra ke kaam mein mehnat aur lagan se kaam karne ki targheeb deti hain.\n\n**Ruzgar mein Barkat ke Liye Rohani aur Astrological Guidance:**\n\n1.  **Sabar aur Shukar (Patience and Gratitude):** ALLAH ne Quran mein sabr karne walon ke sath hone ka wada kiya hai. Aapki zindagi mein jo bhi hai, us par shukr adaa karein. Astrologically, Saturn (Shani) ki House 6 mein mojoodgi sabr aur mehnat ka sabak deti hai. Is sabr ko apni roshni ka hissa banayein.\n2.  **Dua aur Tawakkul (Supplication and Reliance on Allah):** ALLAH se khair aur barkat ke liye dua mangna sab se bara rohani amal hai. Aapka Moon aur Jupiter House 10 mein hain, jo aapke emotional well-being aur career ke liye achhe hain. Inki roshni mein ALLAH se apni roshni aur kamayi mein barkat ki dua karein. Apne kaam mein tawakkul rakhein, matlab mehnat ke baad apna bharosa ALLAH par rakhein.\n3.  **Sadqa aur Khidmat-e-Khalq (Charity and Service to Humanity):** Sadqa ALLAH ki rehmat ko khinchta hai aur mushkilat ko door karta hai. Aapki House 6 mein Sun, Mercury aur Saturn ki mojoodgi aapko apne kaam mein tawajjuh dene ki targheeb deti hai. Iske sath sath, ghareebon ki madad karna, janwaron ko khilana, ya kisi bhi tarah se khidmat-e-khalq karna ALLAH ko raazi karta hai aur barkat lata hai.\n4.  **Apne Kaam Mein Ekhlas aur Mehnat (Sincerity and Hard Work in Your Profession):** Aapka Ascendant Scorpio mein hai, jo aapko hosla aur gehri soch deta hai. House 6 mein Sun, Mercury, aur Saturn aapko apne kaam mein ekhlas, sahi planning aur mehnat karne ki hidayat dete hain. Jab aap apna kaam ALLAH ke naam par aur ekhlas se karte hain, toh us mein barkat khud-ba-khud aa jati hai.\n5.  **Istiġfar (Seeking Forgiveness):** ALLAH se tauba aur istighfar karna gunahon ko maaf karta hai aur roshni ke darwaze kholta hai. Astrologically, Rahu aur Ketu ki position kabhi kabhi pareshani ka baais ban sakti hai, lekin istighfar in par positive asar dalta hai.\n6.  **Apne Maqsad ko Yaad Rakhein:** Aapki roshni ka maqsad kya hai? Jab aap apne maqsad ko ALLAH se jor kar dekhte hain, toh aapki mehnat mein aur ziada asar aa jata hai.\n\n**Agla Qadam:**\n\n*   Rozana ALLAH se dhyan se dua karein, khaas taur par apni roshni mein barkat ke liye.\n*   Apne kaam mein sabr aur mehnat jari rakhein.\n*   Apni kamayi ka kuch hissa sadqa dein aur ALLAH ki makhlooq ki madad karein.\n*   Apne kaam mein ekhlas aur imandari ko sab se pehle rakhein.\n\nIn rohani baton par amal karne se aap ALLAH ki rehmat aur barkat hasil kar sakte hain. ALLAH aap par apna fazal farmaye. Ameen.",
+                    "timestamp": 1781467614867
+                },
+                {
+                    "role": "model",
+                    "text": "Account saved successfully. Your guest coins and chat history are now linked with hamza543@gmail.com.",
+                    "timestamp": 1781467801375
+                },
+                {
+                    "role": "user",
+                    "text": "how do you do",
+                    "timestamp": 1781467812357
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum, Vedic Star Seeker!\n\nMain theek hoon, shukr hai ALLAH ka. Main aapki madad ke liye yahan hoon. Aap kaise hain?\n\nKya aapka koi sawal hai ya aap kisi cheez par guidance chahte hain?",
+                    "timestamp": 1781467814627
+                },
+                {
+                    "role": "user",
+                    "text": "nai",
+                    "timestamp": 1781467821942
+                },
+                {
+                    "role": "model",
+                    "text": "Assalamu Alaikum, Vedic Star Seeker!\n\nJi, aapne \"nai\" farmaya hai. Kya aap apna sawaal dohrana chahenge, ya koi naya sawaal poochhna chahte hain? Main aapki madad ke liye yahan hoon.",
+                    "timestamp": 1781467824109
+                }
+            ]
+        },
+        "seeker_10339@theastrohealer.com": {
+            "email": "seeker_10339@theastrohealer.com",
+            "password": "malik_10339",
+            "name": "hamza",
+            "phone": "",
+            "dob": "2021-09-04",
+            "tob": "12:00",
+            "place": "Lahore, Punjab, Pakistan",
+            "lat": 31.5497,
+            "lon": 74.3436,
+            "timezone": 5,
+            "coins": 30,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 2,
+            "createdAt": 1781470241915,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome hamza. Your chart is ready. Ask your question in any language; I will answer with astrology guidance and Islamic reminders where helpful.",
+                    "timestamp": 1781470241915
+                },
+                {
+                    "role": "user",
+                    "text": "hello i fell very bad",
+                    "timestamp": 1781470255828
+                },
+                {
+                    "role": "model",
+                    "text": "I'm sorry you're feeling low right now, Hamza. Your chart shows the Moon in Cancer in the 9th house and Ketu near the Ascendant in Scorpio, which can bring sudden emotional dips and inner restlessness.\n\nThis is often temporary and linked to overthinking or pressure on the mind. Mercury and Venus in the 11th house suggest relief can come through small daily talks with trusted people or light routine changes.\n\nRest well, eat simple food, and step outside for fresh air. Recite “Hasbunallahu wa ni’mal wakeel” 11 times morning and evening with full trust in Allah. Give a small sadaqah today, even if just feeding a bird or helping someone in need. These steps usually ease the heaviness within a few days.\n\nIf the feeling stays strong, speak with a doctor or counsellor as well.",
+                    "timestamp": 1781470259611
+                },
+                {
+                    "role": "user",
+                    "text": "kaise ho yar",
+                    "timestamp": 1781470276105
+                },
+                {
+                    "role": "model",
+                    "text": "Alhamdulillah theek hoon yar. \n\nAap kaise ho ab? Pehle wali baat mein jo Moon aur Ketu ka asar tha, woh ab bhi dil mein halka sa bhari feel de sakta hai. Thoda araam karo, kisi dost se baat kar lo, aur “Hasbunallahu wa ni’mal wakeel” 11 baar padh lo. Allah aasani de.",
+                    "timestamp": 1781470279797
+                }
+            ]
+        },
+        "student@theastrohealer.com": {
+            "email": "student@theastrohealer.com",
+            "password": "student123",
+            "name": "Believer",
+            "phone": "",
+            "dob": "1995-10-18",
+            "tob": "08:30",
+            "place": "Lahore (Astro Defaulted)",
+            "lat": 31.5204,
+            "lon": 74.3587,
+            "timezone": 5,
+            "coins": 50,
+            "plan": "free",
+            "role": "user",
+            "questionsAsked": 0,
+            "createdAt": 1792842508019,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome Believer. Your chart is ready. You have 5 free questions (50 coins). Ask your question in any language.",
+                    "timestamp": 1792842508019
+                }
+            ]
+        },
+        "mohammadabdullah960@gmail.com": {
+            "email": "mohammadabdullah960@gmail.com",
+            "password": "student123",
+            "name": "Abdullah",
+            "phone": "+923032500756",
+            "dob": "1999-02-06",
+            "tob": "19:00",
+            "place": "karachi (Astro Defaulted)",
+            "lat": 31.5204,
+            "lon": 74.3587,
+            "timezone": 5,
+            "coins": 20,
+            "plan": "premium",
+            "role": "user",
+            "questionsAsked": 3,
+            "createdAt": 1792842553997,
+            "chatHistory": [
+                {
+                    "role": "model",
+                    "text": "Welcome Abdullah. Your chart is ready. You have 5 free questions (50 coins). Ask your question in any language.",
+                    "timestamp": 1792842553997
+                },
+                {
+                    "role": "user",
+                    "text": "Career me growth kab milegi sitaron ke mutabiq?",
+                    "timestamp": 1792842594066
+                },
+                {
+                    "role": "model",
+                    "text": "Aapki career growth ke liye 2025 ke end se 2026 ke mid tak achhe indications hain, lekin yeh sirf mehnat aur timing par depend karega.\n\nAapka chart dikhata hai ke Saturn 9th house mein hai, jo career mein dheere dheere progress deta hai lekin stable banata hai. Sun aur Mercury 6th house mein Capricorn ke saath hain, isliye aapki mehnat aur daily work abhi focus area hai. Moon aur Mars 3rd house mein hain, jo communication aur skills ko strong banate hain. Rahu 12th mein hai jo foreign ya hidden opportunities la sakta hai lekin patience chahiye.\n\nAbhi apni skills improve karen, especially communication aur technical knowledge mein. Networking aur short courses join karen. 2025 mein koi project ya job change try karen jab opportunities aayein. Overthinking se bachen aur consistent effort rakhen. Agar specific job ya field bataen to zyada clear guide kar sakta hoon.",
+                    "timestamp": 1792842599336
+                },
+                {
+                    "role": "user",
+                    "text": "2026 ka october chal rha hai",
+                    "timestamp": 1792842627499
+                },
+                {
+                    "role": "model",
+                    "text": "October 2026 mein aapke career mein dheere dheere growth ke indications ban rahe hain, lekin yeh abhi bhi consistent effort aur patience par depend karega.\n\nAapka chart dikhata hai ke Saturn 9th house mein hai jo long-term stability deta hai, jabke Sun aur Mercury 6th house mein Capricorn ke saath daily work aur skills ko highlight karte hain. Moon aur Mars 3rd house mein communication aur quick decisions ko support karte hain. Rahu 12th mein hidden ya foreign-related opportunities ka signal deta hai.\n\nAb October 2026 ke around apni current job ya projects ko review karen. Agar koi change ya promotion ka mauka mile to carefully evaluate karen. Skills ko update rakhen, especially technical aur networking wali. Overthinking kam karen aur practical steps lete rahen. Agar koi specific field ya situation bataen to zyada targeted guidance de sakta hoon.",
+                    "timestamp": 1792842638036
+                },
+                {
+                    "role": "user",
+                    "text": "meri abhi day time ki job nhe hai bht koshish kar rha hun nhe lag rhe meri life sy pareshanian kab khatam hong",
+                    "timestamp": 1792842695042
+                },
+                {
+                    "role": "model",
+                    "text": "Aapki pareshaniyan dheere dheere kam hone ke indications hain, lekin yeh abhi bhi mehnat aur sahi timing par depend karega. \n\nAapka chart dikhata hai ke Sun aur Mercury 6th house mein Capricorn ke saath daily job aur efforts ko challenge kar rahe hain, isliye abhi tak suitable daytime role nahi mil raha. Saturn 9th house mein hai jo long-term stability deta hai lekin dheere dheere. Moon aur Mars 3rd house mein communication aur skills ko support karte hain, jabke Rahu 12th mein hidden ya unexpected opportunities ka signal deta hai.\n\nOctober 2026 ke around abhi bhi consistent try karte rahen. Apni skills update rakhen, especially technical aur communication wali. Short courses ya networking events join karen. Roz thodi mehnat aur applications continue rakhen. Overthinking kam karen aur practical steps lete rahen. Agar koi specific field ya qualification bataen to zyada clear guide kar sakta hoon.",
+                    "timestamp": 1792842703967
+                },
+                {
+                    "role": "model",
+                    "text": "🌟 Admin Grant: +50 coins awarded directly from The Astro Healer Academy desk. Your updated balance is 70 coins.",
+                    "timestamp": 1792843638872
+                },
+                {
+                    "role": "model",
+                    "text": "🌟 Admin Grant: +-50 coins awarded directly from The Astro Healer Academy desk. Your updated balance is 20 coins.",
+                    "timestamp": 1792843647292
+                }
+            ]
+        }
+    },
+    "transactions": [],
+    "global_stats": {
+        "totalRevenue": 0
+    }
+}

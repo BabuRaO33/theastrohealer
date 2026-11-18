@@ -1,0 +1,21 @@
+# Environment secrets (never push to GitHub)
+.env
+cpanel.env
+.env.*
+!.env.example
+
+# SQL Database dumps (sensitive credentials and structure)
+*.sql
+
+# Large video files (exceeds GitHub 100MB limit)
+uploads/lectures/*.mp4
+uploads/lectures/*.mkv
+uploads/lectures/*.mov
+uploads/lectures/*.avi
+
+# OS & temporary files
+Thumbs.db
+.DS_Store
+*.log
+scratch/
+ai_backup.php

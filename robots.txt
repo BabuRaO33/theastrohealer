@@ -1,0 +1,31 @@
+# --------------------------------------------------------
+# The Astro Healer — Robots Exclusion Protocol
+# Website: https://theastrohealer.com
+# --------------------------------------------------------
+
+User-agent: *
+Allow: /
+Allow: /blog.php
+Allow: /blog-post.php
+Allow: /courses.php
+Allow: /course.php
+Allow: /services.php
+Allow: /zodiac.php
+Allow: /about.php
+Allow: /contact.php
+Allow: /booking.php
+Allow: /ai.php
+Allow: /assets/
+
+# Disallow Private Portals & Sensitive Directories
+Disallow: /admin/
+Disallow: /student/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /uploads/
+Disallow: /*.env$
+Disallow: /*.sql$
+
+# Sitemap Directive
+Host: https://theastrohealer.com
+Sitemap: https://theastrohealer.com/sitemap.xml

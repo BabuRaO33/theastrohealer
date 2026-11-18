@@ -1,0 +1,6 @@
+{
+  "name": "Vedic Astro AI Chat",
+  "description": "Vedic Astrology AI Chatbot with interactive Kundli birth charts, planetary strength graphs, and personalized predictions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

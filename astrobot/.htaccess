@@ -1,0 +1,17 @@
+Options -MultiViews
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Block direct access to secrets and local data
+<FilesMatch "^(\.env|\.env\.example|user_database\.json|.*\.sql)$">
+    Require all denied
+</FilesMatch>
+
+# Clean API URLs, e.g. /api/chat -> index.php?api=chat
+RewriteRule ^api/([A-Za-z0-9_-]+)/?$ index.php?api=$1 [QSA,L]
+
+# Clean PHP page URLs, e.g. /admin -> admin.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [QSA,L]
