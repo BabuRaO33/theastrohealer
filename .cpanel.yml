@@ -1,5 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/theahnel/public_html/
-    - /bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' --exclude='.env' ./ $DEPLOYPATH
+    - export DEPLOYPATH=/home/theahnel/public_html
+    - /bin/cp -rf * $DEPLOYPATH/
+    - /bin/cp -f .htaccess $DEPLOYPATH/
+    - /bin/cp -f .user.ini $DEPLOYPATH/
+
