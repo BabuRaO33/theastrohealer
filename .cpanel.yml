@@ -1,8 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/theahnel/public_html
-    - /bin/cp -rf * $DEPLOYPATH/
-    - /bin/cp -f .htaccess $DEPLOYPATH/
-    - /bin/cp -f .user.ini $DEPLOYPATH/
-
+    - /bin/cp -R . /home/theahnel/public_html
+    - /bin/rm -rf /home/theahnel/public_html/.git
+    - /bin/rm -f /home/theahnel/public_html/.cpanel.yml
