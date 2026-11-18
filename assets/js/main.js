@@ -651,13 +651,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const msgDiv = document.createElement('div');
     msgDiv.className = `ai-msg ai-msg-${role}`;
 
+    const logoSrc = (window.BASE_URL ? window.BASE_URL : '') + '/assets/images/logo.png';
+
+    if (role === 'bot') {
+      msgDiv.style.display = 'flex';
+      msgDiv.style.flexDirection = 'row';
+      msgDiv.style.alignItems = 'flex-start';
+      msgDiv.style.gap = '0.5rem';
+
+      const avatarDiv = document.createElement('div');
+      avatarDiv.className = 'ai-msg-avatar';
+      avatarDiv.style.cssText = 'width:28px; height:28px; border-radius:50%; border:1.5px solid #d4af37; overflow:hidden; flex-shrink:0; background:#0b071e; margin-top:2px;';
+      avatarDiv.innerHTML = `<img src="${logoSrc}" alt="Malik AI" style="width:100%; height:100%; object-fit:cover; display:block;">`;
+      msgDiv.appendChild(avatarDiv);
+    }
+
     const bubble = document.createElement('div');
     bubble.className = 'ai-bubble';
+    if (role === 'bot') bubble.style.flex = '1';
 
     if (role === 'bot') {
       const tagSpan = document.createElement('span');
       tagSpan.className = 'ai-bubble-tag';
-      tagSpan.innerHTML = `<i class="fa-solid fa-moon"></i> ${tag || 'Vedic Oracle'}`;
+      tagSpan.innerHTML = `<i class="fa-solid fa-robot"></i> ${tag || 'Vedic AI Oracle'}`;
       bubble.appendChild(tagSpan);
     }
 
@@ -674,8 +690,17 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container) return null;
     const typingDiv = document.createElement('div');
     typingDiv.className = 'ai-msg ai-msg-bot ai-typing-wrapper';
+    typingDiv.style.display = 'flex';
+    typingDiv.style.flexDirection = 'row';
+    typingDiv.style.alignItems = 'flex-start';
+    typingDiv.style.gap = '0.5rem';
+
+    const logoSrc = (window.BASE_URL ? window.BASE_URL : '') + '/assets/images/logo.png';
     typingDiv.innerHTML = `
-      <div class="ai-bubble">
+      <div class="ai-msg-avatar" style="width:28px; height:28px; border-radius:50%; border:1.5px solid #d4af37; overflow:hidden; flex-shrink:0; background:#0b071e; margin-top:2px;">
+        <img src="${logoSrc}" alt="Malik AI" style="width:100%; height:100%; object-fit:cover; display:block;">
+      </div>
+      <div class="ai-bubble" style="flex:1;">
         <div class="ai-typing-indicator">
           <span></span><span></span><span></span>
         </div>
@@ -822,13 +847,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (fullpageClearBtn) {
       fullpageClearBtn.addEventListener('click', () => {
+        const logoSrc = (window.BASE_URL ? window.BASE_URL : '') + '/assets/images/logo.png';
         fullpageMessages.innerHTML = `
           <div class="ai-msg ai-msg-bot">
-            <div class="ai-avatar-small">
-              <i class="fa-solid fa-sparkles"></i>
+            <div class="ai-avatar-small" style="width:32px; height:32px; border-radius:50%; overflow:hidden; border:1.5px solid #d4af37; background:#0b071e; flex-shrink:0;">
+              <img src="${logoSrc}" alt="AI" style="width:100%; height:100%; object-fit:cover; display:block;">
             </div>
             <div class="ai-bubble">
-              <span class="ai-bubble-tag"><i class="fa-solid fa-moon"></i> Malik AI Oracle</span>
+              <span class="ai-bubble-tag"><i class="fa-solid fa-robot"></i> Malik AI Oracle</span>
               <p>Conversation reset. The cosmic slate is clean. How may the stars illuminate your path now?</p>
             </div>
           </div>
@@ -849,11 +875,14 @@ document.addEventListener('DOMContentLoaded', () => {
       fullpageInput.value = '';
       fullpageMessages.scrollTop = fullpageMessages.scrollHeight;
 
+      const logoSrc = (window.BASE_URL ? window.BASE_URL : '') + '/assets/images/logo.png';
       // Typing indicator
       const typingDiv = document.createElement('div');
       typingDiv.className = 'ai-msg ai-msg-bot';
       typingDiv.innerHTML = `
-        <div class="ai-avatar-small"><i class="fa-solid fa-sparkles"></i></div>
+        <div class="ai-avatar-small" style="width:32px; height:32px; border-radius:50%; overflow:hidden; border:1.5px solid #d4af37; background:#0b071e; flex-shrink:0;">
+          <img src="${logoSrc}" alt="AI" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </div>
         <div class="ai-bubble">
           <div class="ai-typing-indicator"><span></span><span></span><span></span></div>
         </div>
@@ -874,9 +903,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const botMsgDiv = document.createElement('div');
         botMsgDiv.className = 'ai-msg ai-msg-bot';
         botMsgDiv.innerHTML = `
-          <div class="ai-avatar-small"><i class="fa-solid fa-sparkles"></i></div>
+          <div class="ai-avatar-small" style="width:32px; height:32px; border-radius:50%; overflow:hidden; border:1.5px solid #d4af37; background:#0b071e; flex-shrink:0;">
+            <img src="${logoSrc}" alt="AI" style="width:100%; height:100%; object-fit:cover; display:block;">
+          </div>
           <div class="ai-bubble">
-            <span class="ai-bubble-tag"><i class="fa-solid fa-moon"></i> Malik AI Oracle</span>
+            <span class="ai-bubble-tag"><i class="fa-solid fa-robot"></i> Malik AI Oracle</span>
             ${formatAiText(data.reply || 'Guidance received.')}
           </div>
         `;

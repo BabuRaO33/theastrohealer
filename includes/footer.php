@@ -184,8 +184,9 @@
     <div class="ai-widget-card" id="ai-widget-card">
       <div class="ai-widget-header">
         <div class="ai-header-brand">
-          <div class="ai-avatar-orb">
-            <i class="fa-solid fa-sparkles"></i>
+          <div class="ai-avatar-orb" style="position:relative; width:40px; height:40px; border-radius:50%; padding:2px; background:linear-gradient(135deg, var(--gold-light), var(--gold-dark)); box-shadow:0 0 16px rgba(212,175,55,0.6); flex-shrink:0;">
+            <img src="<?= BASE_URL ?>/assets/images/logo.png" alt="The Astro Healer AI" style="width:100%; height:100%; border-radius:50%; object-fit:cover; display:block; background:#0b071e;">
+            <span style="position:absolute; bottom:-2px; right:-2px; width:16px; height:16px; border-radius:50%; background:#7c3aed; border:1.5px solid #ffd700; display:flex; align-items:center; justify-content:center; color:#fff; font-size:8px;" title="AI Powered"><i class="fa-solid fa-robot"></i></span>
           </div>
           <div>
             <div class="ai-title">Malik AI Assistant</div>
@@ -199,9 +200,12 @@
       </div>
 
       <div class="ai-widget-messages" id="ai-messages">
-        <div class="ai-msg ai-msg-bot">
-          <div class="ai-bubble">
-            <span class="ai-bubble-tag"><i class="fa-solid fa-moon"></i> Vedic Oracle</span>
+        <div class="ai-msg ai-msg-bot" style="display:flex; flex-direction:row; align-items:flex-start; gap:0.5rem;">
+          <div class="ai-msg-avatar" style="width:28px; height:28px; border-radius:50%; border:1.5px solid var(--gold); overflow:hidden; flex-shrink:0; background:#0b071e; margin-top:2px;">
+            <img src="<?= BASE_URL ?>/assets/images/logo.png" alt="Malik AI" style="width:100%; height:100%; object-fit:cover; display:block;">
+          </div>
+          <div class="ai-bubble" style="flex:1;">
+            <span class="ai-bubble-tag"><i class="fa-solid fa-robot"></i> Vedic AI Oracle</span>
             <p>Namaste! I am <strong>Malik AI</strong>, your cosmic Vedic guide. Ask me about your <strong>Zodiac Sign</strong>, <strong>Kundali</strong>, <strong>Lucky Gemstones</strong>, or Malik Mehboob's <strong>Master Courses</strong>.</p>
           </div>
         </div>
@@ -224,10 +228,14 @@
     </div>
 
     <!-- Floating Trigger Pill (When minimized) -->
-    <button type="button" class="ai-floating-pill" id="ai-floating-trigger" aria-label="Open AI Assistant">
+    <button type="button" class="ai-floating-pill" id="ai-floating-trigger" aria-label="Open AI Assistant" style="display:inline-flex; align-items:center; gap:0.6rem;">
       <div class="pulse-ring"></div>
-      <i class="fa-solid fa-comments"></i>
-      <span>Malik Assistant</span>
+      <div class="ai-pill-avatar-wrap" style="position:relative; width:30px; height:30px; border-radius:50%; flex-shrink:0;">
+        <img src="<?= BASE_URL ?>/assets/images/logo.png" alt="The Astro Healer Logo" style="width:100%; height:100%; object-fit:cover; border-radius:50%; border:1.5px solid var(--gold); display:block; background:#0b071e;">
+        <span style="position:absolute; bottom:-1px; right:-1px; width:10px; height:10px; background:#10b981; border:1.5px solid #000; border-radius:50%;"></span>
+      </div>
+      <span style="font-weight:600;">Malik AI Assistant</span>
+      <i class="fa-solid fa-robot" style="color:var(--gold-light); font-size:1rem;"></i>
     </button>
   </div>
 
